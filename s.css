@@ -1,0 +1,280 @@
+/*selector{
+	Propert: value; 
+}*/
+p{
+	color:#AAA239;
+	border: 5px solid purple;
+	text-align: center;
+}
+h1{
+	color:white;
+	text-shadow: 5px 5px 5px red;
+	background-size: 20px;
+	font-family:cursive;
+	letter-spacing: 4px;
+	font-size: 40px;
+	text-align:center; 
+}
+h2{
+	color:white;
+	text-shadow: 5px 5px 5px red;
+	background-size: 20px;
+	font-family:'Brush Script MT',cursive;
+	letter-spacing: 3px;
+	font-size: 30px;
+	text-align:center; 
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("BACK.jpg");
+	background-size: cover;
+
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+p{
+	font-style: italic;
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 20px;
+	font-family: "georgia";
+	color: black; 
+}
+footer{
+	clear: both;
+	text-align: center;
+}
+.boxmodel{
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	margin:20px;
+	width: 20px;
+	height:20px;
+}
+.webtext{
+	border: 5px dashed green;
+}
+#div1{
+	background: rgba(0,0,50,0.75);
+}
+.city{
+	background:rgba(0,0,50,0,75);
+	border: 5px dashed green;
+}
+button{
+	color: purple;
+}
+span{
+	font-size: 5em;
+}
+h1{
+	text-align: center;
+	text-shadow: 20px;
+}
+h3{
+	text-align: center;
+}
+.con{
+	text-align: center;
+}
+button{
+	position: center;
+}
+.image{
+    
+	align-self: right;
+	float: right;
+	margin: 40px;
+	margin-top: 0px;
+	transition: margin 1s;
+	position: absolute;right: 0px; top: 0px;
+	
+	
+}
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	left: 50%;
+	top: 18%;
+	
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.box input[type="text"],.box input[type="email"]{
+	border: 0;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	background:none;
+	border: 3px solid skyblue;
+	padding: 12px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="email"]:focus{
+	width: 250px;
+	border-color: lightgreen;
+
+}
+.box button[type="submit"]{
+	border: 0;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	background:none;
+	border: 3px solid lightgreen;
+	padding: 12px 40px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+	cursor: pointer;
+
+}
+.box button[type="submit"]:hover{
+	background: #2ecc71;
+}
+.con input[type="submit"]{
+	border: 0;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	background:none;
+	border: 3px solid lightgreen;
+	padding: 12px 40px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.con input[type="submit"]:hover{
+	background: #2ecc71;
+}
+.con1 input[type="download"]{
+	text-align: center;
+	top: 100%;
+	border: 0;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	background:none;
+	border: 3px solid lightgreen;
+	padding: 12px 40px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.con1 input[type="download"]:hover{
+	background: #2ecc71;
+	transform: scale(1.15,1.15);
+
+}
+.con2 input[type="submit"]{
+	text-align: center;
+	top: 100%;
+	border: 0;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	background:none;
+	border: 3px solid lightgreen;
+	padding: 12px 40px;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+	cursor: pointer;
+
+}
+.con2 input[type="submit"]:hover{
+	background: #2ecc71;
+	transform: scale(1.15,1.15);
+}
+
+/*.media ul{
+   right: 15%;
+   display: flex;
+}*/
+.media ul li{
+	list-style: none;
+	margin: 0 10px;
+}
+.media ul li .fa{
+    font-size: 25px;
+    line-height: 45px;
+    transition: .6s;
+    color: black;
+}
+.media ul li .fa:hover{
+	color: #fff;
+}
+.media ul li a{
+	position: relative;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white;
+	text-align: center;
+	transition: .5s;
+	box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+}
+.media ul li a:hover{
+	transform: translate(0,-10px);
+	transform: scale(1.25,1.25);
+}
+.media ul li:nth-child(2) a:hover{
+	background-color: #3b5999;
+}
+.media ul li:nth-child(1) a:hover{
+	background-color: #0A66C2;
+}
+.media ul li:nth-child(3) a:hover{
+	background-color: #e4405f;
+}
+.media ul li:nth-child(4) a:hover{
+	background-color: #131418;
+}
+.image{
+    
+	align-self: right;
+	float: right;
+	margin: 40px;
+	margin-top: 0px;
+	margin-left: 30px;
+	transition: margin 1s;
+	position: absolute;right: 0px; top: 0px;
+	
+}
+.media{
+    
+	align-self: right;
+	float: right;
+	margin: 40px;
+	margin-top: 200px;
+	margin-right: 15px;
+	padding-right: 0px;
+	transition: margin 0.5s;
+	position: absolute;right: 0px; top: 0px;
+	
+}
+.con1{
+	margin-top: 100px;
+}
+
+/**(to apply property for everything)/*
